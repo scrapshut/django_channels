@@ -21,7 +21,7 @@ def change_post(sender, instance, *args, **kwargs):
 		"posts",
 		{
 			"type":"post_update",
-			"event":"post_user" ,
+			"event":"post_user",
 			'html_users': html_users,
 		}
 	)
